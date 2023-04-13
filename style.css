@@ -1,0 +1,178 @@
+body{
+	position:relative;
+	height: 900px;
+	width:1200px;
+	margin:0px;
+	}
+	
+header
+{
+	
+	border: 10px ridge black;
+	text-align: center;
+	color: white;
+	height: 25px;
+	width: 1180px;
+	font: small-caps bold 1.3rem sans-serif;
+	background-color: black;
+}
+
+p
+{
+	font-family: Verdana;
+	font-style: italic;
+	color: grey;
+	line-height: 25px;
+}
+
+.premierepartieb p
+{
+	position: relative;
+	width:50%;
+	text-align: right;
+	left:50%;
+}
+.premierepartieb img
+{
+	position: absolute;
+	bottom:70%;
+	left:5%;
+	width: 20%;
+}
+.secondepartieb p
+{	
+	position:relative;
+	width:50%;
+}
+.secondepartieb img
+{
+	position: absolute;
+	top:45%;
+	width:20%;
+	left:70%;
+}
+.secondepartieh p
+{
+	position: relative;
+	width:40%;
+	text-align: right;
+	left:50%;
+}
+.secondepartieh img
+{
+	position: absolute;
+	bottom:75%;
+	left:70%;
+	width: 15%;
+}
+.premierepartieh p
+{	
+	position:relative;
+	width:40%;
+	left:5%;
+}
+.premierepartieh img
+{
+	position: absolute;
+	top:35%;
+	width:20%;
+	left:10%;
+}
+
+.returnhome
+{
+	border: 10px ridge black;
+	width:20%;
+	height:10%;
+	position:absolute;
+	bottom:10%;
+	left:5%;
+}
+.returnhome a
+{
+	position:relative;
+	top: 30%;
+	left:5%;
+	font-size: 25px;
+}
+
+#site
+{
+	line-height: 25px;
+	text-align: center;
+}
+
+.liens a
+{
+	position: relative;
+	left:20px;
+	line-height: 25px;
+
+}
+
+.jaune
+{
+	border-color: yellow;
+}
+.noir
+{
+	border-color:black;
+}
+
+hr
+{
+    border: none;
+    border-top: 3px dotted blue;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+hr:after
+{
+    position: relative;
+    bottom: 15px;
+}
+
+.imagetednelson{
+   border:5px solid black;
+   position: absolute;
+   padding:10px;
+   right:200px;
+   top:200px;
+}
+.imagetednelson img
+{
+    width: 200px;
+}
+.imagetednelson p 
+{
+    font: small-caps bold 1.2rem sans-serif;
+}
+
+.coter
+{
+    background-color: black;
+	position: absolute;
+	width: 400px;
+	height: 100%;
+
+}
+.coter img
+{
+    width: 200px;
+	position:relative;
+	top:50px;
+	left:30px;
+}
+.coter a
+{
+    font: small-caps bold 1.2rem sans-serif;
+	position: absolute;
+	bottom: 20px;
+	left:20px;
+}
+.coter p{
+	position:absolute;
+	left:30px;
+	top:300px;
+}
